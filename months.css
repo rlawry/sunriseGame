@@ -35,9 +35,9 @@ div {
 }
 
 .text4 {
-    margin-top: 5vh;
+    margin-top: 10px;
     font-family: Marker Felt, fantasy;
-    font-size: 40px;
+    font-size: 8vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.261), 0 0 20px rgba(255, 163, 163, 0.179), 0 0 30px #bd2727, 0 0 40px #ff3333, 0 0 50px #ff0000, 0 0 60px #6f0000, 0 0 70px #480000;
 }
 
