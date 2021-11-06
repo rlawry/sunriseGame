@@ -36,7 +36,7 @@ function makeMonth(){
         document.getElementById("answer").innerHTML = "Pick the direction!";
     }
     else if(newCreated == true){
-        document.getElementById("answer").innerHTML = "Cheater.  YOU CAN'T GAME THIS! Guess the direction!";
+        document.getElementById("answer").innerHTML = "Cheater.  Pick a direction first.";
     }
 }
 
@@ -54,7 +54,7 @@ function checkDirection(e){
             }
         }
         else if(e.value!=monthNames[monthNumber][1]){
-            document.getElementById("answer").innerHTML = "You lose. Make a new month.";
+            document.getElementById("answer").innerHTML = "No points. Go to the next month.";
             document.getElementById("answer").classList.add("lose-class");
             newCreated = false;
             if(winCount>0){winCount--;}
@@ -67,7 +67,7 @@ function checkDirection(e){
         document.getElementById("points").innerHTML = winCount;
     }
     else if(newCreated == false){
-        document.getElementById("answer").innerHTML = "You already guessed. Make a new Month.";
+        document.getElementById("answer").innerHTML = "You already guessed. Move to the next month.";
     }
     console.log(handicap);
 }
