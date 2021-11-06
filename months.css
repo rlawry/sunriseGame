@@ -1,15 +1,13 @@
 body {
     background: black;
-
 }
 
 .row {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 10%;
-    width: auto;
-    margin: 2%;
+    width: 50vw;
 }
 
 .points{
