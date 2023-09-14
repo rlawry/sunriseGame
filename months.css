@@ -6,6 +6,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    float: left;
+    margin: auto;
     height: 10%;
     width: 50vw;
 }
@@ -16,13 +18,14 @@ body {
 
 div {
     margin: auto;
-    align-text: center;
     display: flex;
+    text-align: auto;
+    width: 100vw;
+    height: 100vh;
     background: black;
     color: white;
     font-size: 3vh;
     justify-content: center;
-    width: 100%;
 }
 
 .text1 {
