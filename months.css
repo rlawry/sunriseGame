@@ -16,14 +16,13 @@ body {
     flex-direction: row;
 }
 
-.changemonthrow {   
-    display: flex;
+.changemonth {   
     justify-content: center;
     align-items: center;
     float: left;
     margin: auto;
     height: 10%;
-    width: 50vw;
+    width: 30vw;
 }
 
 .points{
@@ -41,16 +40,6 @@ div {
     width: 100%;
     height: 100vh;
     margin: 5px;
-}
-
-.row text2 {   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    margin: auto;
-    height: 10%;
-    width: 50vw;
 }
 
 .text1 {
@@ -86,9 +75,9 @@ button {
     color: white;
     font-family:'Courier New', Courier, monospace;
     width: 30%;
-    height: 80%;
+    height: 30%;
     margin: 2%;
-    padding: 1%;
+    padding: 2%;
     border-radius: 10%;
 }
 
