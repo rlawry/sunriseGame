@@ -36,6 +36,7 @@ div {
     align-items: center;
     width: 100%;
     margin: 5px;
+    vertical-align: middle;
 }
 
 .text1 {
@@ -70,8 +71,8 @@ button {
     background: rgba(139, 0, 0, 0.63);
     color: white;
     font-family:'Courier New', Courier, monospace;
-    width: 30%;
-    height: 80%;
+    width: 60%;
+    height: 100%;
     margin: 2%;
     padding: 2%;
     border-radius: 10%;
