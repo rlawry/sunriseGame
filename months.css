@@ -43,6 +43,16 @@ div {
     margin: 5px;
 }
 
+.row text2 {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: auto;
+    height: 10%;
+    width: 50vw;
+}
+
 .text1 {
     font-family: cursive;
     font-size: 4vh;
