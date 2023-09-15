@@ -1,5 +1,9 @@
 body {
     background: black;
+    vertical-align: middle;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
 }
 
 .buttonrow {   
