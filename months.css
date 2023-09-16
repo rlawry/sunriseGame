@@ -74,6 +74,8 @@ div {
     font-size: 4vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.261), 0 0 20px rgba(255, 163, 163, 0.179), 0 0 30px #bd2727, 0 0 40px #ff3333;
     line-height: 300%;
+    display: flex;
+    flex-direction: row;
 }
 
 .lose-class {
