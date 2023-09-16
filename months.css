@@ -44,9 +44,6 @@ div {
 }
 
 .container {
-    position: relative;
-    top: 50%;
-    transform: translate(-50%);
     background: black;
     color: white;
     font-size: 3vh;
