@@ -35,6 +35,7 @@ div {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    text-align: center
 }
 
 .container {
