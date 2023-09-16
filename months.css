@@ -84,6 +84,7 @@ button {
     margin: 2%;
     padding: 2%;
     border-radius: 10%;
+    font-size: 1em;
 }
 
 #monthButton{
