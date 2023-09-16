@@ -28,6 +28,7 @@ body {
 }
 
 div {
+    width: 100vw;
     background: black;
     color: white;
     font-size: 3vh;
