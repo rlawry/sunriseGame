@@ -43,18 +43,6 @@ div {
     vertical-align: middle;
 }
 
-.container {
-    background: black;
-    color: white;
-    font-size: 3vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    vertical-align: middle;
-}
-
 .text1 {
     font-family: cursive;
     font-size: 4vh;
