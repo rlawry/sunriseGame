@@ -1,3 +1,62 @@
+/* animations */
+@keyframes pointsRGB {
+    100%,0%{
+        background: rgb(128,0,0);
+        box-shadow: 0 0 10px rgb(128,0,0);
+    }
+    8%{
+        background: rgb(128,64,0);
+        box-shadow: 0 0 10px rgb(128,64,0);
+    }
+    16%{
+        background: rgb(128,128,0);
+        box-shadow: 0 0 10px rgb(128,128,0);
+    }
+    25%{
+        background: rgb(64,128,0);
+        box-shadow: 0 0 10px rgb(64,128,0);
+    }
+    33%{
+        background: rgb(0,128,0);
+        box-shadow: 0 0 10px rgb(0,128,0);
+    }
+    41%{
+        background: rgb(0,128,64);
+        box-shadow: 0 0 10px rgb(0,128,64);
+    }
+    50%{
+        background: rgb(0,128,128);
+        box-shadow: 0 0 10px rgb(0,128,128);
+    }
+    58%{
+        background: rgb(0,64,128);
+        box-shadow: 0 0 10px rgb(0,64,128);
+    }
+    66%{
+        background: rgb(0,0,128);
+        box-shadow: 0 0 10px rgb(0,0,128);
+    }
+    75%{
+        background: rgb(64,0,128);
+        box-shadow: 0 0 10px rgb(64,0,128);
+    }
+    83%{
+        background: rgb(128,0,128);
+        box-shadow: 0 0 10px rgb(128,0,128);
+    }
+    91%{
+        background: rgb(128,0,64);
+        box-shadow: 0 0 10px rgb(128,0,64);
+    }
+}
+
+@keyframes pointsStationary {
+    100%, 0% {
+        background: rgb(32, 32, 32);
+    }
+}
+
+/* nerd stuff */
 body {
     background: black;
     overflow: hidden;
@@ -34,7 +93,6 @@ div {
     font-size: 3vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -44,11 +102,10 @@ div {
     width: 100vw;
     height: 100vh;
     vertical-align: middle;
-    overflow: hidden;
 }
 
 .text1 {
-    font-family: cursive;
+    font-family: "Cedarville Cursive";
     font-size: 4vh;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073;
     display: flex;
@@ -56,26 +113,33 @@ div {
     line-height: 300%;
 }
 .text2 {
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: "Inconsolata";
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #33aaff, 0 0 40px #335aFF;
     line-height: 300%;
 }
 
-.text3 {
-    font-family: Blippo, fantasy;
+#answer {
+    font-family: "Lilita One";
     font-size: 3vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.261), 0 0 20px rgba(174, 255, 163, 0.179), 0 0 30px #27bd70, 0 0 40px #66ff33;
     line-height: 350%;
 }
 
-.text4 {
+
+#win-loss {
+    background: rgb(32, 32, 32);
+    width: 6em;
+    height: 2em;
+    border-radius: 25%;
+
     margin-top: 10px;
-    font-family: Marker Felt, fantasy;
+    font-family: "Rubik Marker Hatch";
     font-size: 4vh;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.261), 0 0 20px rgba(255, 163, 163, 0.179), 0 0 30px #bd2727, 0 0 40px #ff3333;
+    text-shadow: 0 0 10px rgb(128, 128, 128);
     line-height: 300%;
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 0px rgb(255,255,255);
 }
 
 .lose-class {
@@ -84,9 +148,9 @@ div {
 }
 
 button {
-    background: rgba(139, 0, 0, 0.63);
+    background: rgba(128, 0, 0, 0.5);
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Courier";
     width: 60%;
     height: 100%;
     margin: 2%;
@@ -95,8 +159,14 @@ button {
     font-size: 1em;
 }
 
+button:hover {
+    width: calc(60% + 0.5em);
+    height: calc(100% + 0.5em);
+    transition: width 0.1s, height 0.1s;
+}
+
 #monthButton {
-    background: rgba(255, 251, 0, 0.527);
+    background: rgba(255, 255, 0, 0.5);
     border-radius: 50%;
     border: none;
 }

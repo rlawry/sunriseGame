@@ -64,6 +64,15 @@ function checkDirection(e) {
                 handicap++;
             }
         }
+        if (winCount == 0) {
+            document.getElementById("win-loss").style.animation = "pointsStationary 2.5s linear"
+            document.getElementById("win-loss").style.animationIterationCount = "infinite"
+        }
+        else if (winCount > 0) {
+            document.getElementById("win-loss").style.animation = "pointsRGB 2.5s linear"
+            document.getElementById("win-loss").style.animationIterationCount = "infinite"
+        }
+
         document.getElementById("points").innerHTML = winCount;
     }
     else if (newCreated == false) {
