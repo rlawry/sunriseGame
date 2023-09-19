@@ -53,6 +53,7 @@
 @keyframes pointsStationary {
     100%, 0% {
         background: rgb(32, 32, 32);
+        box-shadow: 0 0 0 rgb(0,0,0);
     }
 }
 
@@ -139,7 +140,7 @@ div {
     line-height: 300%;
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 0px rgb(255,255,255);
+    box-shadow: 0 0 0 rgb(0,0,0);
 }
 
 .lose-class {
