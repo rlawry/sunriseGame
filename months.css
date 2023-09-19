@@ -70,7 +70,7 @@ body {
     float: left;
     margin: auto;
     height: 10%;
-    width: 50vw;
+    width: 100vw;
     flex-direction: row;
     position: absoulte;
 }
