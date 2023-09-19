@@ -147,6 +147,7 @@ div {
 }
 
 button {
+    position: static;
     background: rgba(128, 0, 0, 0.5);
     color: white;
     font-family: "Courier";
