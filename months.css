@@ -119,13 +119,13 @@ div {
     line-height: 300%;
 }
 
+/* using id ("#") instead of class (".") just because it makes HTML cleaner whilst still working the same */
 #answer {
     font-family: "Lilita One";
     font-size: 3vh;
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.261), 0 0 20px rgba(174, 255, 163, 0.179), 0 0 30px #27bd70, 0 0 40px #66ff33;
     line-height: 350%;
 }
-
 
 #win-loss {
     background: rgb(32, 32, 32);
@@ -141,11 +141,6 @@ div {
     display: flex;
     flex-direction: row;
     box-shadow: 0 0 0 rgb(0,0,0);
-}
-
-.lose-class {
-    font-family: American Typewriter, serif;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073;
 }
 
 button {
