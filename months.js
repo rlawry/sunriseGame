@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function(){
-    var buttons = document.querySelectorAll(".btn").length;
+    var buttons = document.querySelectorAll(".answerbutton").length;
 
     for (var i = 0; i < buttons ; i++) {
-        document.querySelectorAll(".btn")[i].addEventListener("click", function() {
+        document.querySelectorAll(".answerbutton")[i].addEventListener("click", function() {
             checkDirection(this);
         });
     }

@@ -63,7 +63,7 @@ body {
     overflow: hidden;
 }
 
-.buttonrow {   
+.answers {   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,28 +148,44 @@ div {
 }
 
 button {
-    background: rgb(128, 32, 32);
-    box-shadow: 0 0 20px rgb(255, 0, 0);
     color: white;
     font-family: "Inconsolata";
-    width: 60%;
-    height: 100%;
     margin: 2%;
-    padding: 2%;
-    border-radius: 10%;
     font-size: 1em;
     overflow: hidden;
     border: none;
 }
 
-button:hover {
-    width: calc(60% + 0.5em);
-    height: calc(100% + 0.5em);
-    transition: width 0.1s, height 0.1s;
+.answerbutton {
+    background: rgb(128, 32, 32);
+    box-shadow: 0 0 20px rgb(255, 0, 0);
+    border-radius: 10%;
+
+    width: 60em;
+    height: 4em;
+    transition: width 0.1s, height 0.1s, font-size 0.1s;
+}
+
+.answerbutton:hover {
+    width: calc(60em + 100px);
+    height: calc(4em + 10px);
+    font-size: 1.1em;
+    transition: width 0.1s, height 0.1s, font-size 0.1s;
 }
 
 #monthButton {
-    background: rgb(128, 128, 0);
+    background: rgb(190, 190, 64);
     box-shadow: 0 0 10px rgb(255, 255, 0);
     border-radius: 50%;
+
+    width: 16cqw;
+    height: 8cqh;
+    transition: width 0.1s, height 0.1s, font-size 0.1s;
+}
+
+#monthButton:hover {
+    width: calc(16cqw + 10px);
+    height: calc(8cqh + 10px);
+    font-size: 1.05em;
+    transition: width 0.1s, height 0.1s, font-size 0.1s;
 }
