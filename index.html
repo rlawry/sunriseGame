@@ -1,23 +1,30 @@
 <html>
 <link rel="stylesheet" href="months.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cedarville+Cursive">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Marker+Hatch">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita+One">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src="months.js"> </script>
     <body onload="makeMonth()">
-        <div class="row">
-            <div class="text1">In the month of&nbsp;<span id="month"></span></div>
-        </div>
-        <div class="row text2">
-            the sun rises...
-        </div>
-        <div class="row">
-            <button class="btn" id="neButton" value=2>North of East</button><button class="btn" id="dueEastButton" value=1>Due East</button><button class="btn" id="seButton" value=0>South of East</button>
-        </div>
-        <div class="text3 row" id="answer">Pick a direction.
-        </div>
-        <div class="text4 row points" id="win-loss">Points:&nbsp;&nbsp;<span id="points">0</span>
-        </div>
-        <div class="row">
-            <div><button id="monthButton">Change Month</button></div>
+        <div class="container">
+            <div class="text1">
+                In the month of&nbsp;<span id="month"></span>
+            </div>
+            <div class="text2">
+                the sun rises...
+            </div>
+            <div class="answers">
+                <button class="answerbutton" id="neButton" value=2>North of East</button><button class="answerbutton" id="dueEastButton" value=1>Due East</button><button class="answerbutton" id="seButton" value=0>South of East</button>
+            </div>
+            <div id="answer">Pick a direction.
+            </div>
+            <div id="win-loss">Points:&nbsp;<span id="points">0</span>
+            </div>
+            <div class="changemonth">
+                <div><button id="monthButton">Change Month</button></div>
+            </div>
         </div>
     </body>
 </html>
