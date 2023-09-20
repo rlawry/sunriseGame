@@ -44,7 +44,6 @@ function checkDirection(e) {
     if (newCreated == true) {
         if (e.value == monthNames[monthNumber][1]) {
             document.getElementById("answer").innerHTML = "Correct";
-            document.getElementById("answer").classList.remove("lose-class");
             newCreated = false;
             winCount++;
             if (handicap>5&&monthNames[monthNumber][1] == 1) {
@@ -55,7 +54,6 @@ function checkDirection(e) {
         }
         else if (e.value!=monthNames[monthNumber][1]) {
             document.getElementById("answer").innerHTML = "No points. Go to the next month.";
-            document.getElementById("answer").classList.add("lose-class");
             newCreated = false;
             if (winCount>0){winCount--;}
             if (monthNames[monthNumber][1]==1) {
