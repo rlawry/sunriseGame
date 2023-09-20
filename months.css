@@ -148,8 +148,8 @@ div {
 }
 
 button {
-    background: rgba(128, 0, 0, 0.5);
-    box-shadow: 0 0 30px rgb(64,0,0);
+    background: rgba(128, 64, 64, 0.5);
+    box-shadow: 0 0 30px rgb(128,0,0);
     color: white;
     font-family: "Courier";
     width: 60%;
@@ -169,7 +169,7 @@ button:hover {
 }
 
 #monthButton {
-    background: rgba(255, 255, 0, 0.5);
-    box-shadow: 0 0 30px rgb(128,128,0);
+    background: rgba(255, 255, 128, 0.5);
+    box-shadow: 0 0 30px rgb(255,255,0);
     border-radius: 50%;
 }
